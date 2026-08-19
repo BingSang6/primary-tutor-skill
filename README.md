@@ -30,7 +30,7 @@
 ```bash
 # Claude Code 用户
 mkdir -p ~/.claude/skills
-git clone https://github.com/<你的用户名>/primary-tutor-skill.git ~/.claude/skills/primary-tutor-template
+git clone https://github.com/BingSang6/primary-tutor-skill.git ~/.claude/skills/primary-tutor-template
 ```
 
 ZCode 用户请克隆到 `~/.agents/skills/`（或建软链指向 `~/.claude/skills/`）。
