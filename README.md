@@ -70,9 +70,14 @@ ZCode 用户请克隆到 `~/.agents/skills/`（或建软链指向 `~/.claude/ski
 
 ```
 primary-tutor-skill/
-├── SKILL.md     # Skill 本体（教学方法规则）
-└── README.md    # 本文件
+├── SKILL.md                                  # Skill 本体（教学方法规则，1~6 年级）
+├── knowledge-bases/
+│   ├── math-primary-renjiao.md               # 数学 1~6 年级全学段知识库
+│   └── chinese-primary-curriculum.md         # 语文 1~6 年级课程框架知识库（含必背古诗文原文）
+└── README.md                                 # 本文件
 ```
+
+两个知识库均为课程标准层内容（知识点、公式、公版古诗文），不含现代教材原文，可放心公开。安装时把 `knowledge-bases/` 下的文件也放到 skills 目录即可搭配使用。
 
 ---
 
